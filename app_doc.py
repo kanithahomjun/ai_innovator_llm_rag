@@ -106,6 +106,7 @@ def main():
     )
     st.title("AI Innovator LLM & RAG")
     st.subheader("Chatbot ที่ช่วยตอบคำถามเกี่ยวกับสถานที่ท่องเที่ยวในจังหวัดน่าน")
+    st.subheader("ผู้พัฒนา : Kanitha Homjun")
 
     # เพิ่มข้อมูลเอกสารลงใน Qdrant
     add_documents_to_qdrant(documents)
